@@ -8,7 +8,7 @@ void testApp::setup()
 {
 	dispRaw = false;
 	
-	ofxPCL::PointCloud cloud(new ofxPCL::PointCloud::value_type);
+	ofxPCL::PointCloud cloud(new ofxPCL::PointCloud::element_type);
 	
 	cloud = ofxPCL::loadPointCloud<ofxPCL::PointCloud>(string("table_scene_lms400.pcd"));
 	
