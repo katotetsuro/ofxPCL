@@ -6,7 +6,7 @@
 //--------------------------------------------------------------
 void testApp::setup()
 {
-	ofxPCL::PointCloud cloud(new ofxPCL::PointCloud::value_type);
+	ofxPCL::PointCloud cloud(new ofxPCL::PointCloud::element_type);
 	vector<ofxPCL::PointCloud> clouds;
 	
 	cloud = ofxPCL::loadPointCloud<ofxPCL::PointCloud>("table_scene_lms400.pcd");
