@@ -8,8 +8,8 @@ void testApp::setup()
 {
 	dispRaw = false;
 	
-	ofxPCL::PointCloud cloud(new ofxPCL::PointCloud::value_type);
-	ofxPCL::PointNormalPointCloud mls_points(new ofxPCL::PointNormalPointCloud::value_type);
+	ofxPCL::PointCloud cloud(new ofxPCL::PointCloud::element_type);
+	ofxPCL::PointNormalPointCloud mls_points(new ofxPCL::PointNormalPointCloud::element_type);
 
 	cloud = ofxPCL::loadPointCloud<ofxPCL::PointCloud>("bun0.pcd");
 	
