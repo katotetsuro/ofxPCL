@@ -1,3 +1,10 @@
+# Update(2015-02-10)
+
+I made some changes to use pcl 1.8 and boost 1.57.
+
+You can download new libs from [here](http://goo.gl/QoWiel)
+
+
 # Setup instruction (OS X)
 
 1. Get dependencies (96.9 MB) and extract them to ofxPCL folder.
